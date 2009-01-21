@@ -1,0 +1,23 @@
+# cowpaw:/etc/exim/configure
+
+.include /etc/exim/basic.conf
+
+
+begin acl
+.include /etc/exim/acl.conf
+
+
+begin routers
+.include /etc/exim/routers.conf
+
+
+begin transports
+.include /etc/exim/transports.conf
+
+
+begin retry
+.include /etc/exim/retry.conf
+
+
+begin authenticators
+.include /etc/exim/authenticators.conf

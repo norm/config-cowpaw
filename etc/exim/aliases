@@ -1,0 +1,9 @@
+# cowpaw:/etc/exim/aliases
+#
+# global aliases for all domains
+
+root:           postmaster
+abuse:          postmaster
+postmaster:     norm
+
+mfrancis:       norm
